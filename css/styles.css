@@ -30,7 +30,7 @@ span.logo {
   color: #404bbf;
 }
 
-.nav-link:active {
+.nav-link:focus {
   color: #404bbf;
 }
 
@@ -41,7 +41,7 @@ span.logo {
 .address-link {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -57,11 +57,11 @@ span.logo {
   background-color: #2e2f42;
 }
 
-.h1-class {
+.first-header-class {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   color: #ffffff;
 }
 
@@ -69,9 +69,9 @@ span.logo {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-    font-size: 16px;
+  font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
   color: #ffffff;
   border: none;
   cursor: pointer;
@@ -81,33 +81,32 @@ span.logo {
   background-color: #404bbf;
 }
 
-.button:active {
-    background-color: #404bbf;
-  }
+.button:focus {
+  background-color: #404bbf;
+}
 
-.h2-class {
+.second-header-class {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
 }
 
-.h3-class {
+.third-header-class {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
 .text {
-    font-size: 16px;
-    line-height: 1.5;
-  letter-spacing: 0.02;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
-
 }
 
 .our-team-wrap {
@@ -128,9 +127,9 @@ span.logo {
 }
 
 .text-footer {
-    line-height: 1.5;
+  line-height: 1.5;
   color: #f4f4fd;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 
 .logo-footer {
